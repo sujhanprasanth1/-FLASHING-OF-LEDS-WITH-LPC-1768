@@ -60,29 +60,16 @@ Delay.h, stdutils.h, gpioi.h
  
 # PROGRAM:
 ```
-#include <lpc17xx.h>
-#include "delay.h"      
-#include "gpio.h"
+void setup() {
+  pinMode(13, OUTPUT);
+}
 
-#define LED P1_29        
+void loop() {
+  digitalWrite(13, HIGH);
+  delay(1000);
 
-/* start the main program */
-int main()
-{
-    SystemInit();                         
-    GPIO_PinFunction(LED,PINSEL_FUNC_0);   
-    GPIO_PinDirection(LED,OUTPUT);        
-    GPIO_PinWrite(LED,LOW);
-
-    while(1)
-    {
-        /* Turn On all the leds and wait for 100ms */
-        GPIO_PinWrite(LED,HIGH);           
-        DELAY_ms(100);
-
-        GPIO_PinWrite(LED,LOW);           
-        DELAY_ms(100);
-    }
+  digitalWrite(13, LOW);
+  delay(1000);
 }
 ```
 
