@@ -49,13 +49,14 @@ Delay.h, stdutils.h, gpioi.h
 # PIN DIAGRAM :
 
  
-<img width="1037" height="665" alt="image" src="https://github.com/user-attachments/assets/575ce0a3-7f05-44ff-9692-4f0f901b11f6" />
+<img width="381" height="402" alt="image" src="https://github.com/user-attachments/assets/85fd3b20-f3cb-4b6f-be02-3b2fd35bc716" />
 
 
 # CIRCUIT DIAGRAM:
 
 
-<img width="883" height="457" alt="image" src="https://github.com/user-attachments/assets/0888da4c-5ea6-44a1-a192-98e771c86feb" />
+<img width="883" height="619" alt="image" src="https://github.com/user-attachments/assets/83d08e6b-8c42-4211-9f60-1f3f45e47258" />
+
  
 # PROGRAM:
 ```
@@ -88,7 +89,8 @@ int main()
 # Output:
 
 
-<img width="551" height="572" alt="image" src="https://github.com/user-attachments/assets/d9437309-b537-46f7-9755-a69f7950dfc3" />
+<img width="1797" height="890" alt="image" src="https://github.com/user-attachments/assets/c65f1902-9d30-401c-a4f5-cf0a2de5ffde" />
+
 
 # Result:
 The experiment on toggling an LED with the ARM LPC1768 microcontroller was successfully performed. The LED flashed ON and OFF at regular intervals as programmed, confirming correct interfacing and functioning of the GPIO operations. The code compiled without errors, and all hardware connections were verified to work as expected. The experiment demonstrated the basic use of GPIO for output and timing control using software delays.
